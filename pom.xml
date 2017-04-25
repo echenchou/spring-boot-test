@@ -36,7 +36,10 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-tomcat</artifactId>
+			<!--发布war包时要添加scope-->
+			<!--
 			<scope>provided</scope>
+			-->
 		</dependency>
 		<dependency>
 			<groupId>mysql</groupId>
